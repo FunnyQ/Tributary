@@ -1,0 +1,23 @@
+// *************************************
+//
+//   pages/index
+//
+//
+// *************************************
+body
+  background-image: url("../img/debut_dark.png")
+  width: 100%
+  height: 100%
+
+.logo
+  width: 300px
+  margin: 0 auto
+  +breakpoint($b-mobile)
+    width: 600px
+
+h1, h4
+  color: #888
+  +text-shadow(0 -1px 1px #000)
+  text-align: center
+h1
+  font-size: $fz-xl
